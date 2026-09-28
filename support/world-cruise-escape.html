@@ -31,8 +31,9 @@ main {
 }
 h1 {
   color: var(--text);
-  font-size: 1.55rem;
-  letter-spacing: 0.08em;
+  /* The 13-character title must stay on one line on a phone. */
+  font-size: clamp(1.1rem, 5.4vw, 1.55rem);
+  letter-spacing: 0.04em;
   margin: 0 0 8px;
 }
 h2 {
