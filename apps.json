@@ -1,10 +1,9 @@
 {
-  "_comment": "Read by the Studio Beita apps to show the author's other works. One entry per released app. ios / android: the store page (leave out a store where the app is not released). icon: 192px square under apps/.",
+  "_comment": "Read by the Studio Beita apps to show the author's other works. One entry per released app: id, title, icon (192px square under apps/), ios / android (the store page; leave out a store where the app is not released).",
   "apps": [
     {
       "id": "small-escape-room",
       "title": "小さな書斎からの脱出",
-      "tagline": "はじめての人向け・10〜20分",
       "icon": "apps/small-escape-room.webp",
       "ios": "https://apps.apple.com/jp/app/id6815918200",
       "android": "https://play.google.com/store/apps/details?id=com.studiobeita.smallescaperoom"
@@ -12,7 +11,6 @@
     {
       "id": "world-cruise-escape",
       "title": "世界一周豪華客船からの脱出",
-      "tagline": "3部屋・30〜45分",
       "icon": "apps/world-cruise-escape.webp",
       "ios": "https://apps.apple.com/jp/app/id6816899973"
     }
