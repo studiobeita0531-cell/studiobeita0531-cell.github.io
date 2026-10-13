@@ -12,7 +12,8 @@
       "id": "world-cruise-escape",
       "title": "世界一周豪華客船からの脱出",
       "icon": "apps/world-cruise-escape.webp",
-      "ios": "https://apps.apple.com/jp/app/id6816899973"
+      "ios": "https://apps.apple.com/jp/app/id6816899973",
+      "android": "https://play.google.com/store/apps/details?id=com.studiobeita.cruiseshipescape"
     }
   ]
 }
