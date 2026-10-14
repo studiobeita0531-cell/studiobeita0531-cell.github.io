@@ -2,6 +2,12 @@
   "_comment": "Read by the Studio Beita apps to show the author's other works. One entry per released app: id, title, icon (192px square under apps/), ios / android (the store page; leave out a store where the app is not released).",
   "apps": [
     {
+      "id": "bosai-stock",
+      "title": "防災ストック",
+      "icon": "apps/bosai-stock.webp",
+      "ios": "https://apps.apple.com/jp/app/id6820542823"
+    },
+    {
       "id": "small-escape-room",
       "title": "小さな書斎からの脱出",
       "icon": "apps/small-escape-room.webp",
