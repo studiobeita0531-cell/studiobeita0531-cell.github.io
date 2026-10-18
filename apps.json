@@ -5,7 +5,8 @@
       "id": "bosai-stock",
       "title": "防災ストック",
       "icon": "apps/bosai-stock.webp",
-      "ios": "https://apps.apple.com/jp/app/id6820542823"
+      "ios": "https://apps.apple.com/jp/app/id6820542823",
+      "android": "https://play.google.com/store/apps/details?id=com.studiobeita.bosaistock"
     },
     {
       "id": "small-escape-room",
