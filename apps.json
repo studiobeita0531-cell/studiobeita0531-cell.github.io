@@ -19,7 +19,9 @@
       "title": "小さな書斎からの脱出",
       "icon": "apps/small-escape-room.webp",
       "ios": "https://apps.apple.com/jp/app/id6815918200",
-      "android": "https://play.google.com/store/apps/details?id=com.studiobeita.smallescaperoom"
+      "android": "https://play.google.com/store/apps/details?id=com.studiobeita.smallescaperoom",
+      "langs": ["ja", "en", "zh-Hant"],
+      "titles": { "en": "Escape from the Little Study", "zh-Hant": "逃離小書房" }
     },
     {
       "id": "world-cruise-escape",
