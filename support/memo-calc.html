@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>サポート｜計算結果を残して使えるメモ電卓</title>
+<style>
+:root {
+  --bg: #f4f2ed;
+  --panel: #fbfaf7;
+  --text: #1b201e;
+  --dim: #5f6662;
+  --accent: #1e8a72;
+  --line: rgba(30, 138, 114, 0.3);
+  color-scheme: light dark;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0e1726;
+    --panel: #16213a;
+    --text: #f2f4f7;
+    --dim: #a9b4c3;
+    --accent: #5cc9ae;
+    --line: rgba(92, 201, 174, 0.35);
+  }
+}
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: -apple-system, BlinkMacSystemFont, 'Hiragino Sans', 'Yu Gothic', 'Meiryo', 'PingFang TC', 'Microsoft JhengHei', sans-serif;
+  line-height: 1.85;
+}
+:lang(zh-Hant) body {
+  font-family: -apple-system, BlinkMacSystemFont, 'PingFang TC', 'Microsoft JhengHei', sans-serif;
+}
+main {
+  max-width: 680px;
+  margin: 24px auto;
+  padding: 32px 24px 52px;
+  background: var(--panel);
+  border-radius: 16px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+h1 {
+  font-size: clamp(1.1rem, 5vw, 1.5rem);
+  line-height: 1.5;
+  margin: 8px 0 8px;
+}
+h2 {
+  color: var(--accent);
+  font-size: 1.15rem;
+  margin: 36px 0 8px;
+  padding-bottom: 4px;
+  border-bottom: 1px solid var(--line);
+}
+h3 {
+  font-size: 1rem;
+  margin: 22px 0 4px;
+}
+.lead,
+.date {
+  color: var(--dim);
+}
+.langs {
+  font-size: 0.92rem;
+  margin: 0;
+}
+a {
+  color: var(--accent);
+}
+ul {
+  padding-left: 1.3em;
+}
+@media (max-width: 720px) {
+  main {
+    margin: 0;
+    border-radius: 0;
+    box-shadow: none;
+  }
+}
+</style>
+</head>
+<body>
+<main>
+<p class="langs">日本語 ｜ <a href="https://studiobeita0531-cell.github.io/support/memo-calc-en.html">English</a> ｜ <a href="https://studiobeita0531-cell.github.io/support/memo-calc-zh-hant.html">繁體中文</a></p>
+<h1>計算結果を残して使えるメモ電卓</h1>
+<p class="lead">計算した答えに名前を付けてメモに残し、あとで電卓に呼び出して使える電卓です。ホーム画面での名前は「メモ電卓」です。</p>
+
+<h2>よくある質問</h2>
+<h3>計算の答えをメモに残すには？</h3>
+<p>名前の欄（「何の数字？」）に名前を入れてから、大きな数字の表示を、上のメモ帳までドラッグして離します。好きな位置に入れられます。表示の左の ↑ ボタンを押すと、メモ帳の最後に入ります。名前は空のままでも保存できます。</p>
+<p>スマホを横にしたときや iPad では、メモ帳と電卓が横に並びます。表示をメモ帳の方へドラッグしてください。</p>
+<h3>メモの数字を計算に使うには？</h3>
+<p>メモの右の ↓ ボタンを押すか、メモを長押ししてつかみ、電卓の上まで運んで離します。「+」などの記号のあとなら、式に続けて入ります。式の数字の上には、そのメモの名前が出ます。</p>
+<h3>メモを直す・並べ替える・消すには？</h3>
+<p>メモをタップすると、名前と数字を直したり、メモを削除したりできます。消した直後なら「元に戻す」で戻せます。メモを長押ししてつかむと、並べ替えられます。</p>
+<h3>税込・税抜の計算をしたい</h3>
+<p>設定（メモ帳の右上の歯車）の「税込・税抜のキー」で「キーを表示する」を選ぶと、名前の欄の右にキーが出ます。「税率」も変えられます。</p>
+<h3>小数を丸めたい</h3>
+<p>設定の「小数の丸め」で、丸める桁と丸め方（四捨五入・切り捨て・切り上げ）を選べます。</p>
+<h3>広告を消すには？</h3>
+<p>設定の「広告」の「広告を消す」から購入できます。買い切りなので、一度買えばずっと広告は出ません。機種変更やアプリを入れ直したあとは、同じ Apple アカウントで「購入を復元」を押してください。</p>
+<h3>メモはどこに保存されますか？</h3>
+<p>メモは端末の中だけに保存され、外部には送信されません。アプリを削除すると、メモも消えます。</p>
+<h3>キーの音や振動を変えたい</h3>
+<p>設定の「キーを押したとき」で、「音を鳴らす」と「振動させる」をそれぞれオン・オフできます。iPhone・iPad がマナーモード（消音）のときは、音は鳴りません。</p>
+<h3>見た目や言語を変えたい</h3>
+<p>設定の「見た目」で、好きなスキンを選べます（すべて無料です）。「言語」では、日本語・English・繁體中文を選べます。「自動」のときは、端末の言語に合わせます。</p>
+<h3>使い方をもう一度見たい</h3>
+<p>設定の「使い方」の「使い方ガイドを見る」から開けます。</p>
+
+<h2>お問い合わせ</h2>
+<p>ご意見・不具合のご報告は、下記までお送りください。お使いの機種と iOS のバージョンを書いていただけると助かります。</p>
+<p><a href="mailto:studiobeita0531@gmail.com">studiobeita0531@gmail.com</a></p>
+
+<p><a href="https://studiobeita0531-cell.github.io/privacy-policy/memo-calc/">プライバシーポリシー</a></p>
+<p class="date">Studio Beita</p>
+</main>
+</body>
+</html>
